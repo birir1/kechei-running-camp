@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-navbar {
+    background-color: #143009;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-socials a {
+    color: #eeb601;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.navbar-socials a:hover {
+    color: #f1f1f1;
+}
+
+/*about section*/
+
+.about-kechei {
+    background-color: silver;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.about-kechei h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-kechei h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-kechei p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+
+.text-primary {
+    color: #0056b3 !important;
+}
+
+.text-secondary {
+    color: #6c757d !important;
+}
+
+/*3-rd section*/
+
+#video-and-info .embed-responsive {
+    margin-bottom: 1rem;
+}
+
+#video-and-info h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*4-rth section*/
+
+#what-we-offer {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+#what-we-offer h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#what-we-offer h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.unique-footer {
+    background-color: #143009;
+    color: #ffffff;
+}
+
+.footer-heading {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+}
+
+.footer-link {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-social-icon {
+    color: #ffffff;
+}
+
+.footer-social-icon:hover {
+    color: #eeb601;
+}
+.footer-qr-code {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border: 0px solid #fff; /* Optional: adds a border for better visibility */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+/*History*/
+
+.history-values-section {
+    font-family: "Times New Roman", serif;
+    color: #333; /* Main text color */
+    background: linear-gradient(to right, #f9f9f9, #ffffff);
+    padding: 40px 0;
+}
+
+.history-column,
+.values-column {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.history-column:hover,
+.values-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.history-heading,
+.values-heading {
+    font-size: 26px;
+    color: #007bff; /* Accent color */
+    margin-bottom: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Underline for heading */
+    padding-bottom: 10px;
+}
+
+.history-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.values-list {
+    font-size: 16px;
+    line-height: 1.6;
+    list-style: none;
+    padding-left: 0;
+}
+
+.values-list li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.values-list li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Accent color */
+    font-size: 20px;
+    line-height: 1.6;
+}
