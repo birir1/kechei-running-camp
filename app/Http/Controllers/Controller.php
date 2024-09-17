@@ -47,4 +47,7 @@ abstract class Controller
     public function training(){
         return view("frontend.training");
     }
+    public function campsoverview(){
+        return view("frontend.campsoverview");
+    }
 }

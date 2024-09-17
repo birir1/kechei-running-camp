@@ -1,16 +1,22 @@
-<section class="history-values-section py-5">
+<section class="history-section py-5">
     <div class="container">
         <div class="row">
             <!-- History Column -->
-            <div class="col-md-6 mb-4 history-column">
+            <div class="col-md-6 mb-4">
                 <div class="history-content">
                     <h2 class="history-heading">Our History</h2>
                     <p class="history-text">Founded in the heart of Iten, Kenya, Kechei Training Camps has been at the forefront of running excellence. Our journey began with a vision to provide world-class training and a platform for runners to achieve their best. Over the years, we have grown into a premier destination for athletes looking to experience the secrets of Kenyan running.</p>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
 
+<section class="values-section py-5">
+    <div class="container">
+        <div class="row">
             <!-- Values Column -->
-            <div class="col-md-6 mb-4 values-column">
+            <div class="col-md-12 mb-4">
                 <div class="values-content">
                     <h2 class="values-heading">Our Values</h2>
                     <ul class="values-list">

@@ -7,9 +7,11 @@
         
         @include("frontend.partials.navbar2")
 
-        @include("frontend.partials.history")
+        @include("frontend.partials.trainingprograms")
 
-        @include("frontend.partials.ourcouches")
+        @include("frontend.partials.recentcamps")
+
+        @include("frontend.partials.whyjoinus")
 
         @include("frontend.partials.footer")
 

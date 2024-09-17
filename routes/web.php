@@ -63,6 +63,10 @@ Route::get('/training', function () {
     return view('frontend.training');
 });
 
+Route::get('/campsoverview', function () {
+    return view('frontend.campsoverview');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
