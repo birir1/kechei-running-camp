@@ -11,6 +11,14 @@ Route::get('/about', function () {
     return view('frontend.about');
 });
 
+Route::get('/video', function () {
+    return view('frontend.video');
+});
+
+Route::get('/community', function () {
+    return view('frontend.community');
+});
+
 Route::get('/accomodation', function () {
     return view('frontend.accomodation');
 });
@@ -21,6 +29,10 @@ Route::get('/amenities', function () {
 
 Route::get('/contacts', function () {
     return view('frontend.contacts');
+});
+
+Route::get('/facilities', function () {
+    return view('frontend.facilities');
 });
 
 Route::get('/endurance', function () {
@@ -59,12 +71,32 @@ Route::get('/strength', function () {
     return view('frontend.strength');
 });
 
+Route::get('/blog', function () {
+    return view('frontend.blog');
+});
+
+Route::get('/elitecamp', function () {
+    return view('frontend.elitecamp');
+});
+
+Route::get('/juniorcamp', function () {
+    return view('frontend.juniorcamp');
+});
+
+Route::get('/adultcamp', function () {
+    return view('frontend.adultcamp');
+});
+
 Route::get('/training', function () {
     return view('frontend.training');
 });
 
 Route::get('/campsoverview', function () {
     return view('frontend.campsoverview');
+});
+
+Route::get('/trainingresources', function () {
+    return view('frontend.trainingresources');
 });
 
 Route::get('/dashboard', function () {

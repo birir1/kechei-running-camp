@@ -7,11 +7,11 @@
         
         @include("frontend.partials.navbar2")
 
-        @include("frontend.partials.howwestarted")
+        @include("frontend.partials.trainingground")
 
-        @include("frontend.partials.milestones")
+        @include("frontend.partials.accomodationdetails")
 
-        @include("frontend.partials.significantevents")
+        @include("frontend.partials.facilityhighlight")
 
         @include("frontend.partials.footer")
 

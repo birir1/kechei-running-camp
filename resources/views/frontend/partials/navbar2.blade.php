@@ -1,31 +1,43 @@
-<nav style="background-color: #666565; padding: 30px;">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
+<nav class="unique-navbar">
+    <div class="unique-container">
         <!-- Far Left: Keche Running Camp Name -->
-        <div style="flex: 1;">
-            <a href="#" style="color: white; text-decoration: none; font-size: 13px; font-family: 'Times New Roman', serif; font-weight: bold;">Keche Running Camp</a>
+        <div class="unique-brand">
+            <a href="#" class="unique-brand-link">Keche Running Camp</a>
         </div>
         
         <!-- Centered Navigation Links -->
-        <div style="flex: 2; display: flex; justify-content: center; gap: 30px; position: relative;">
-            <a href="/" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">Home</a>
-            <a href="/about" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">About</a>
-            <div class="dropdown-camps" style="position: relative;">
-                <a href="/campsoverview" class="nav-link-camps" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">Camps Overview</a>
-                <ul class="dropdown-menu-camps" style="display: none; position: absolute; top: 100%; left: 0; list-style: none; background-color: #444; padding: 15px 0; margin: 0; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); border-radius: 10px;">
-                    <li><a href="/adult-camps" class="dropdown-link-camps" style="display: block; padding: 12px 24px; color: #f0f0f0; text-decoration: none;">Adult Camps</a></li>
-                    <li><a href="/junior-camps" class="dropdown-link-camps" style="display: block; padding: 12px 24px; color: #f0f0f0; text-decoration: none;">Junior Camps</a></li>
-                    <li><a href="/elite-camps" class="dropdown-link-camps" style="display: block; padding: 12px 24px; color: #f0f0f0; text-decoration: none;">Elite Camps</a></li>
+        <div class="unique-nav-links">
+            <a href="/" class="unique-nav-link">Home</a>
+            <div class="unique-dropdown">
+                <a href="#" class="unique-dropdown-toggle">About</a>
+                <ul class="unique-dropdown-menu">
+                    <li><a href="/facilities" class="unique-dropdown-item">Facilities</a></li>
+                    <li><a href="/history" class="unique-dropdown-item">History</a></li>
                 </ul>
             </div>
-            <a href="/ourathletes" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">Our Athletes</a>
-            <a href="/events" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">Events</a>
-            <a href="/FAQs" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">FAQs</a>
-            <a href="/contacts" style="color: white; text-decoration: none; font-size: 14px; font-family: 'Times New Roman', serif;">Contacts</a>
+            <div class="unique-dropdown">
+                <a href="#" class="unique-dropdown-toggle">Camps Overview</a>
+                <ul class="unique-dropdown-menu">
+                    <li><a href="/adultcamp" class="unique-dropdown-item">Adult Camps</a></li>
+                    <li><a href="/juniorcamp" class="unique-dropdown-item">Junior Camps</a></li>
+                    <li><a href="/elitecamp" class="unique-dropdown-item">Elite Camps</a></li>
+                </ul>
+            </div>
+            <div class="unique-dropdown">
+                <a href="#" class="unique-dropdown-toggle">Training Resources</a>
+                <ul class="unique-dropdown-menu">
+                    <li><a href="/blog" class="unique-dropdown-item">Blog</a></li>
+                    <li><a href="/video" class="unique-dropdown-item">Videos</a></li>
+                </ul>
+            </div>
+            <a href="/community" class="unique-nav-link">Community</a>
+            <a href="/FAQs" class="unique-nav-link">FAQs</a>
+            <a href="/contacts" class="unique-nav-link">Contacts</a>
         </div>
 
         <!-- Far Right: Login Link -->
-        <div style="flex: 1; text-align: right;">
-            <a href="/login" style="color: white; text-decoration: none; padding: 20px; font-size: 13px; font-family: 'Times New Roman', serif;"><i class="bi bi-person-circle"></i> Login</a>
+        <div class="unique-login">
+            <a href="/login" class="unique-login-link"><i class="bi bi-person-circle"></i> Login</a>
         </div>
     </div>
 </nav>

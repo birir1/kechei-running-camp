@@ -50,4 +50,27 @@ abstract class Controller
     public function campsoverview(){
         return view("frontend.campsoverview");
     }
+    public function trainingresources(){
+        return view("frontend.trainingresources");
+    }
+    public function blog(){
+        return view("frontend.blog");
+    }
+
+    public function community(){
+        return view("frontend.community");
+    }
+
+    public function video(){
+        return view("frontend.video");
+    }
+    public function adultcamp(){
+        return view("frontend.adultcamp");
+    }
+    public function elite(){
+        return view("frontend.elite");
+    }
+    public function juniorcamp(){
+        return view("frontend.juniorcamp");
+    }
 }
