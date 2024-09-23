@@ -7,7 +7,7 @@
         
         @include("frontend.partials.navbar2")
 
-        @include("frontend.partials.trainingground")
+        {{-- @include("frontend.partials.trainingground") --}}
 
         @include("frontend.partials.accomodationdetails")
 

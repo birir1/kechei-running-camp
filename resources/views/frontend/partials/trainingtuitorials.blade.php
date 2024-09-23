@@ -7,7 +7,7 @@
             <div class="col-md-4 mb-4">
                 <div class="tutorial-card">
                     <div class="tutorial-video-wrapper">
-                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/sample1" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/xhrJrI7nrg4" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="tutorial-content">
                         <h4 class="tutorial-title">Basic Running Techniques</h4>
@@ -20,7 +20,7 @@
             <div class="col-md-4 mb-4">
                 <div class="tutorial-card">
                     <div class="tutorial-video-wrapper">
-                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/sample2" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/LDqU5No_YzI" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="tutorial-content">
                         <h4 class="tutorial-title">Strength Training for Runners</h4>
@@ -33,7 +33,7 @@
             <div class="col-md-4 mb-4">
                 <div class="tutorial-card">
                     <div class="tutorial-video-wrapper">
-                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/sample3" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="250" src="https://www.youtube.com/embed/752qpyB-U2o" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <div class="tutorial-content">
                         <h4 class="tutorial-title">Nutrition Tips for Runners</h4>

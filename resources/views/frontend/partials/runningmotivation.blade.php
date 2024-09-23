@@ -19,9 +19,9 @@
             <div class="col-md-4 mb-4">
                 <div class="motivation-card">
                     <div class="motivation-image-wrapper">
-                        <img src="path/to/runner.jpg" alt="Runner Testimonial" class="img-fluid">
+                        <img src="{{ asset('img/stars.png') }}" alt="Runner 1" class="img-fluid">
                     </div>
-                    <p class="testimonial-text">"Kechei Training Camps have transformed my running journey. I’ve learned to challenge myself and reach new milestones." — <strong>John Doe, Marathon Runner</strong></p>
+                    <p class="testimonial-text">"Kechei Training Camps have transformed my running journey. I’ve learned to challenge myself and reach new milestones." — <strong>Joan, Marathon Runner</strong></p>
                 </div>
             </div>
 

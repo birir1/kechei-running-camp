@@ -7,9 +7,9 @@
         
         @include("frontend.partials.navbar2")
 
-        @include("frontend.partials.howwestarted")
-
         @include("frontend.partials.milestones")
+
+        @include("frontend.partials.howwestarted")
 
         @include("frontend.partials.significantevents")
 

@@ -7,7 +7,7 @@
                 <div class="story-content">
                     <div class="story-section">
                         <div class="story-image">
-                            <img src="{{ asset('img/origin-story1.jpg') }}" alt="Founding Image">
+                            {{-- <img src="{{ asset('img/origin-story1.jpg') }}" alt="Founding Image"> --}}
                         </div>
                         <div class="story-description">
                             <h3 class="story-title">The Vision</h3>
@@ -16,7 +16,7 @@
                     </div>
                     <div class="story-section">
                         <div class="story-image">
-                            <img src="{{ asset('img/origin-story2.jpg') }}" alt="Early Days Image">
+                            {{-- <img src="{{ asset('img/origin-story2.jpg') }}" alt="Early Days Image"> --}}
                         </div>
                         <div class="story-description">
                             <h3 class="story-title">Early Days</h3>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="story-section">
                         <div class="story-image">
-                            <img src="{{ asset('img/origin-story3.jpg') }}" alt="Growth Image">
+                            {{-- <img src="{{ asset('img/origin-story3.jpg') }}" alt="Growth Image"> --}}
                         </div>
                         <div class="story-description">
                             <h3 class="story-title">Growth and Expansion</h3>
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="how-we-started-background">
-                <img src="{{ asset('img/keche-running-camp.jpg') }}" alt="Camp Background" class="background-image">
+                {{-- <img src="{{ asset('img/keche-running-camp.jpg') }}" alt="Camp Background" class="background-image"> --}}
             </div>
         </div>
     </div>

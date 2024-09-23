@@ -4,7 +4,7 @@
         <div class="row align-items-center">
             <!-- Fitness Image -->
             <div class="col-md-6 mb-4">
-                <img src="{{ asset('img/fitness.jpg') }}" alt="Health & Fitness" class="img-fluid health-fitness-img">
+                <img src="{{ asset('img/images/train5.jpeg') }}" alt="Health & Fitness" class="img-fluid health-fitness-img">
             </div>
             
             <!-- Fitness Content -->
@@ -17,7 +17,7 @@
                     <li><strong>Recovery Sessions</strong>: Yoga, massage therapy, and rest strategies.</li>
                     <li><strong>Hydration Tips</strong>: Stay hydrated with expert tips for long-distance running.</li>
                 </ul>
-                <a href="#" class="btn btn-primary fitness-learn-more-btn">Learn More</a>
+                <a href="https://www.kecheicentre.com" class="btn btn-primary fitness-learn-more-btn">Learn More</a>
             </div>
         </div>
     </div>

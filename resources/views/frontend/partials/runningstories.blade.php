@@ -5,7 +5,7 @@
         <!-- Featured Story Section -->
         <div class="row mb-5 featured-story">
             <div class="col-md-6">
-                <img src="{{ asset('img/featured-runner.jpg') }}" alt="Featured Runner" class="img-fluid featured-story-img">
+                <img src="{{ asset('img/images/kipchoge.jpeg') }}" alt="Featured Runner" class="img-fluid featured-story-img">
             </div>
             <div class="col-md-6">
                 <div class="featured-story-content">
@@ -20,7 +20,7 @@
         <div class="row runner-stories-grid">
             <div class="col-md-4 mb-4">
                 <div class="runner-story-card">
-                    <img src="{{ asset('img/runner1.jpg') }}" alt="Runner 1" class="img-fluid runner-story-img">
+                    <img src="{{ asset('img/images/field.jpeg') }}" alt="Runner 1" class="img-fluid runner-story-img">
                     <div class="runner-story-overlay">
                         <h4 class="runner-story-name">Vivian Cheruiyot</h4>
                         <p class="runner-story-preview">From track to marathon champion, Vivian's rise in the world of long-distance running is nothing short of legendary.</p>
@@ -30,7 +30,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="runner-story-card">
-                    <img src="{{ asset('img/runner2.jpg') }}" alt="Runner 2" class="img-fluid runner-story-img">
+                    <img src="{{ asset('img/images/run2.jpeg') }}" alt="Runner 2" class="img-fluid runner-story-img">
                     <div class="runner-story-overlay">
                         <h4 class="runner-story-name">David Rudisha</h4>
                         <p class="runner-story-preview">The world record holder in the 800m, David Rudisha’s story is a testament to speed, power, and dedication.</p>
@@ -40,7 +40,7 @@
             </div>
             <div class="col-md-4 mb-4">
                 <div class="runner-story-card">
-                    <img src="{{ asset('img/runner3.jpg') }}" alt="Runner 3" class="img-fluid runner-story-img">
+                    <img src="{{ asset('img/images/run1.jpeg') }}" alt="Runner 3" class="img-fluid runner-story-img">
                     <div class="runner-story-overlay">
                         <h4 class="runner-story-name">Mary Keitany</h4>
                         <p class="runner-story-preview">As one of the greatest female marathoners, Mary Keitany's journey is filled with triumphs and incredible achievements.</p>

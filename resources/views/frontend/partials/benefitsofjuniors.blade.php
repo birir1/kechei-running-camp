@@ -4,7 +4,7 @@
         <div class="benefits-wrapper">
             <div class="benefit-item">
                 <div class="icon">
-                    <img src="{{ asset('img/benefit1.png') }}" alt="Improved Fitness">
+                    <img src="{{ asset('img/leteam.png') }}" alt="Improved Fitness">
                 </div>
                 <div class="benefit-content">
                     <h3 class="benefit-title">Improved Fitness</h3>
@@ -13,7 +13,7 @@
             </div>
             <div class="benefit-item">
                 <div class="icon">
-                    <img src="{{ asset('img/benefit2.png') }}" alt="Skill Development">
+                    <img src="{{ asset('img/stretch.png') }}" alt="Skill Development">
                 </div>
                 <div class="benefit-content">
                     <h3 class="benefit-title">Skill Development</h3>
@@ -22,7 +22,7 @@
             </div>
             <div class="benefit-item">
                 <div class="icon">
-                    <img src="{{ asset('img/benefit3.png') }}" alt="Increased Confidence">
+                    <img src="{{ asset('img/finedine.png') }}" alt="Increased Confidence">
                 </div>
                 <div class="benefit-content">
                     <h3 class="benefit-title">Increased Confidence</h3>
@@ -31,7 +31,7 @@
             </div>
             <div class="benefit-item">
                 <div class="icon">
-                    <img src="{{ asset('img/benefit4.png') }}" alt="Teamwork and Social Skills">
+                    <img src="{{ asset('img/guests1.png') }}" alt="Teamwork and Social Skills">
                 </div>
                 <div class="benefit-content">
                     <h3 class="benefit-title">Teamwork and Social Skills</h3>
@@ -40,7 +40,7 @@
             </div>
             <div class="benefit-item">
                 <div class="icon">
-                    <img src="{{ asset('img/benefit5.png') }}" alt="Healthy Lifestyle Habits">
+                    <img src="{{ asset('img/dine.png') }}" alt="Healthy Lifestyle Habits">
                 </div>
                 <div class="benefit-content">
                     <h3 class="benefit-title">Healthy Lifestyle Habits</h3>
