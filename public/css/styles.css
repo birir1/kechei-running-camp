@@ -4,6 +4,111 @@
     box-sizing: border-box;
 }
 
+/*carousel - section*/
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-heading {
+    font-size: 48px; /* Bigger heading */
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Add a shadow for better visibility */
+}
+
+.carousel-description {
+    font-size: 16px; /* Smaller description */
+    font-weight: 300;
+    color: #e0e0e0; /* Softer color to contrast with the heading */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Subtle shadow for description */
+    margin-top: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Darken the navigation icons for a cleaner look */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .carousel-heading {
+        font-size: 36px; /* Adjust heading size for smaller screens */
+    }
+
+    .carousel-description {
+        font-size: 14px; /* Adjust description size for smaller screens */
+    }
+}
+
+/*experience section*/
+
+.kechei-training-section {
+    background-color: #143009; /* Light background for simplicity */
+    padding: 20px 20px;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+}
+
+.kechei-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.kechei-title {
+    font-size: 24px;
+    color: #143009; /* Dark green for main title */
+    margin-bottom: 10px;
+}
+
+.kechei-subtitle {
+    font-size: 40px;
+    color: #eeb601; /* Yellow-gold for subtitle */
+    margin-bottom: 20px;
+}
+
+.kechei-description {
+    font-size: 14px;
+    color: #fff; /* Soft grey for body text */
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.kechei-highlight {
+    color: #143009; /* Dark green for emphasis */
+    font-weight: bold;
+}
+
+.kechei-training-section p {
+    margin-bottom: 20px;
+}
+
+/*caption box*/
+
+.caption-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: white; /* Make text color white for clarity */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow to make text stand out */
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}
+
 body {
     font-family: "Times New Roman", Times, serif;
 }
@@ -39,9 +144,9 @@ body {
 
 .about-kechei {
     background-color: silver;
-    color: #333;
+    color: #666565;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .about-kechei h2 {
@@ -51,14 +156,15 @@ body {
 }
 
 .about-kechei h3 {
+    background-color: #143009;
     font-family: "Times New Roman", Times, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .about-kechei p {
     font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.7;
     margin-top: 1rem;
 }
@@ -78,6 +184,7 @@ body {
 }
 
 #video-and-info h3 {
+    background-color: #143009;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
     font-weight: bold;
@@ -86,21 +193,22 @@ body {
 /*4-rth section*/
 
 #what-we-offer {
+    background-color: #143009;
     font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    background-color: #f8f9fa;
+    font-size: 30px;
+    background-color: #556575;
     padding: 2rem 0;
 }
 
 #what-we-offer h2 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 #what-we-offer h3 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -931,7 +1039,7 @@ body {
 }
 
 .runner-story-name {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;

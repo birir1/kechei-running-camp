@@ -29,8 +29,9 @@
             <div class="col-md-6 contact-form">
                 <h2 class="section-heading">Get in Touch</h2>
                 <p class="section-description">Have a question or need support? Fill out the form below, and our team will get back to you as soon as possible.</p>
-                
-                <form action="submit_form.php" method="post">
+            
+                <form action="{{ route('contact.submit') }}" method="post">
+                    @csrf <!-- This directive generates a CSRF token for security -->
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" class="form-control" required>
@@ -46,6 +47,7 @@
                     <button type="submit" class="btn-submit">Send Message</button>
                 </form>
             </div>
+            
         </div>
     </div>
 </section>

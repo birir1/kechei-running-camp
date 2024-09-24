@@ -1,5 +1,7 @@
 @extends('layouts.front')
 
+@section('title', 'Home Page')
+
 @section('content')
     <div class="container">
         
@@ -9,7 +11,7 @@
 
         @include("frontend.partials.landing")
 
-        @include("frontend.partials.kechei")
+        @include("frontend.partials.experience")
 
         @include("frontend.partials.vidsec")
 

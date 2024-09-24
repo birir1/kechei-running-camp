@@ -1,5 +1,7 @@
 @extends('layouts.front')
 
+@section('title', 'About Page')
+
 @section('content')
     <div class="container">
         
