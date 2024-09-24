@@ -15,7 +15,13 @@
 
         @include("frontend.partials.vidsec")
 
+        @include("frontend.partials.ourcouches")
+
         @include("frontend.partials.why")
+
+        @include("frontend.partials.touring")
+
+        @include("frontend.partials.seminars")
 
         @include("frontend.partials.footer")
 

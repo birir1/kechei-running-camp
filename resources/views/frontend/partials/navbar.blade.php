@@ -1,4 +1,9 @@
 <nav class="custom-navbar">
+    <div class="navbar-packages">
+        <a href="/packages" style="text-decoration: none;">
+            <button style="font-family: 'Times New Roman'; font-size: 16px; background-color: #eeb601; color: #143009; border: none; padding: 10px 20px; cursor: pointer;">Packages</button>
+        </a>
+    </div>
     <div class="navbar-logo">
         {{-- <a href="public/img/logo.png">Logo</a> --}}
     </div>

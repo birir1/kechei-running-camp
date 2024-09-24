@@ -42,6 +42,10 @@ Route::get('/endurance', function () {
     return view('frontend.endurance');
 });
 
+Route::get('/ourcoaches', function () {
+    return view('frontend.ourcoaches');
+});
+
 Route::get('/events', function () {
     return view('frontend.events');
 });

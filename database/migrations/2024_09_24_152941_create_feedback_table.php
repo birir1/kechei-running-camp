@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('contacts', function (Blueprint $table) {
+        Schema::create('feedback', function (Blueprint $table) {
             $table->id(); // Auto-incrementing ID
             $table->string('name'); // Name field
             $table->string('email')->unique(); // Unique email field
             $table->text('message'); // Message field
             $table->timestamps(); // Created at and updated at timestamps
+       
         });
     }
 
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('contacts'); // Drop the contacts table if it exists
+        Schema::dropIfExists('feedback');
     }
 };

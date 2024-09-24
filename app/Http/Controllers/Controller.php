@@ -73,4 +73,8 @@ abstract class Controller
     public function juniorcamp(){
         return view("frontend.juniorcamp");
     }
+
+    public function ourcoaches(){
+        return view("frontend.ourcoaches");
+    }
 }

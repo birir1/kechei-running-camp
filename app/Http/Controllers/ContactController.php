@@ -9,6 +9,7 @@ class ContactController extends Controller
 {
     public function submit(Request $request)
     {
+       
         // Validate the incoming request
         $validatedData = $request->validate([
             'name' => 'required|string|max:255',
