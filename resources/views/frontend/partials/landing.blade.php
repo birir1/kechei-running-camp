@@ -6,7 +6,7 @@
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="{{ asset('img/hotel.jpg') }}" class="d-block w-100" alt="..." style="height: 400px; object-fit: cover;">
+            <img src="{{ asset('img/leteam.png') }}" class="d-block w-100" alt="..." style="height: 400px; object-fit: cover;">
             <div class="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
