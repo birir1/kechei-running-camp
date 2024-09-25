@@ -6,6 +6,8 @@ use App\Http\Controllers\ContactController;
 
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
+Route::post('/contacts/submit', [ContactController::class, 'submit'])->name('contacts.submit');
+
 Route::get('/', function () {
     return view('frontend.index');
 });

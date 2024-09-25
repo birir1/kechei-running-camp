@@ -74,7 +74,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="event-card">
                     <div class="event-image-wrapper">
-                        <img src="{{ asset('img/team.jpg') }}" alt="Event 6" class="event-img img-fluid">
+                        <img src="{{ asset('img/train8.png') }}" alt="Event 6" class="event-img img-fluid">
                     </div>
                     <div class="event-info">
                         <h4 class="event-title">Cross-Country Challenge</h4>

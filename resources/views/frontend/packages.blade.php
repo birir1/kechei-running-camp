@@ -1,6 +1,6 @@
 @extends('layouts.front')
 
-@section('title', 'About Page')
+@section('title', 'Packages Page')
 
 @section('content')
     <div class="container">

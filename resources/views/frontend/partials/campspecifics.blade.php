@@ -2,7 +2,7 @@
     <div class="container">
         <h2 class="camp-specifics-heading">Camp Specifics</h2>
         <div class="camp-details">
-            <div class="row">
+            <div class="row items-center">
                 <!-- Detail 1 -->
                 <div class="col-md-4 camp-detail-item">
                     <div class="camp-icon">

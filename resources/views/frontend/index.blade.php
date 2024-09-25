@@ -11,6 +11,8 @@
 
         @include("frontend.partials.landing")
 
+        @include("frontend.partials.modal")
+
         @include("frontend.partials.experience")
 
         @include("frontend.partials.vidsec")

@@ -13,7 +13,6 @@
                             <p>"Training at Kechei Camp transformed my life. The altitude, the coaches, and the support from fellow athletes was a game changer. I’m a stronger, faster runner now."</p>
                         </div>
                         <div class="testimonial-author">
-                            <img src="img/athlete1.jpg" alt="Athlete 1" class="testimonial-author-img">
                             <h4 class="author-name">David Kipchumba</h4>
                             <p class="author-role">Marathon Runner</p>
                         </div>
@@ -27,7 +26,6 @@
                             <p>"The training experience was beyond what I expected. Kechei provides an environment that nurtures champions both mentally and physically."</p>
                         </div>
                         <div class="testimonial-author">
-                            <img src="img/athlete2.jpg" alt="Athlete 2" class="testimonial-author-img">
                             <h4 class="author-name">Mary Chepkoech</h4>
                             <p class="author-role">Olympic Athlete</p>
                         </div>
@@ -41,7 +39,6 @@
                             <p>"Kechei Camp is not just a place to train, it’s where you find your passion for running again. I’ve made lifelong friends and become a better athlete."</p>
                         </div>
                         <div class="testimonial-author">
-                            <img src="img/athlete3.jpg" alt="Athlete 3" class="testimonial-author-img">
                             <h4 class="author-name">John Tanui</h4>
                             <p class="author-role">Cross-Country Champion</p>
                         </div>
