@@ -30,12 +30,12 @@
     margin-top: 10px;
 }
 
-.carousel-control-prev-icon,
+/* .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-color: #000; /* Darken the navigation icons for a cleaner look */
-    border-radius: 50%;
-    padding: 10px;
-}
+/* border-radius: 50%; */
+/* padding: 10px; */
+/* } */
 
 @media (max-width: 768px) {
     .carousel-heading {

@@ -10,31 +10,31 @@
     <div class="activities-grid" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 30px;">
         <!-- Activity Card Template -->
         <div class="activity-card" style="width: 250px; background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-            <img src="market-day.jpg" alt="Market Day Experience" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
+            <img src="{{ asset('img/marketday.jpg') }}" alt="Market Day Experience" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
             <h3 style="font-size: 22px; color: #143009; margin: 15px 0;">Market Day</h3>
             <p style="font-size: 16px; color: #333;">Experience the vibrant local markets and discover authentic Kenyan products.</p>
         </div>
 
         <div class="activity-card" style="width: 250px; background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-            <img src="yoga-session.jpg" alt="Yoga Session" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
+            <img src="{{ asset('img/gym1.jpeg') }}" alt="Yoga Session" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
             <h3 style="font-size: 22px; color: #143009; margin: 15px 0;">Yoga Sessions</h3>
             <p style="font-size: 16px; color: #333;">Relax your mind and body with peaceful and revitalizing yoga sessions.</p>
         </div>
 
         <div class="activity-card" style="width: 250px; background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-            <img src="zumba-class.jpg" alt="Zumba Class" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
+            <img src="{{ asset('img/zumba.jpg') }}" alt="Zumba Class" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
             <h3 style="font-size: 22px; color: #143009; margin: 15px 0;">Zumba Classes</h3>
             <p style="font-size: 16px; color: #333;">Get your heart pumping and dance your way to fitness with Zumba.</p>
         </div>
 
         <div class="activity-card" style="width: 250px; background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-            <img src="massage-therapy.jpg" alt="Massage Therapy" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
+            <img src="{{ asset('img/massage1.jpg') }}" alt="Massage Therapy" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
             <h3 style="font-size: 22px; color: #143009; margin: 15px 0;">Massage Therapy</h3>
             <p style="font-size: 16px; color: #333;">Enjoy a rejuvenating massage session to relieve stress and tension.</p>
         </div>
 
         <div class="activity-card" style="width: 250px; background-color: white; padding: 20px; border-radius: 15px; box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); transition: transform 0.3s;">
-            <img src="bbq-party.jpg" alt="BBQ Party" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
+            <img src="{{ asset('img/bbq.webp') }}" alt="BBQ Party" style="width: 100%; border-radius: 15px; transition: transform 0.3s;"/>
             <h3 style="font-size: 22px; color: #143009; margin: 15px 0;">BBQ Dinner Party</h3>
             <p style="font-size: 16px; color: #333;">End your stay with a delightful barbecue dinner under the stars.</p>
         </div>

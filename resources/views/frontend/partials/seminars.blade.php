@@ -6,7 +6,7 @@
         </p>
     </div>
 
-    <div class="elite-runners" style="background-color: #eeb601; padding: 40px 20px; border-radius: 10px;">
+    <div class="elite-runners" style="background-color: #eeb601; padding: 40px 20px; border-radius: 0px;">
         <h3 style="font-size: 28px; color: white; margin-bottom: 10px;">Meet Our Elite Runners</h3>
         <p style="font-size: 16px; color: white; margin-bottom: 30px;">Be privileged to meet world-class athletes:</p>
         <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 18px; color: white; font-weight: bold; line-height: 2;">
@@ -19,7 +19,7 @@
     </div>
 
     <div class="seminar-footer" style="margin-top: 50px;">
-        <a href="#register" style="background-color: #143009; color: white; padding: 15px 40px; font-size: 18px; text-decoration: none; border-radius: 8px; transition: background-color 0.3s;">
+        <a href="/register" style="background-color: #143009; color: white; padding: 15px 40px; font-size: 18px; text-decoration: none; border-radius: 8px; transition: background-color 0.3s;">
             Register Now
         </a>
     </div>

@@ -77,4 +77,6 @@ abstract class Controller
     public function ourcoaches(){
         return view("frontend.ourcoaches");
     }
+
+    
 }

@@ -20,10 +20,27 @@
                     <div class="support-item">
                         <i class="fas fa-phone support-icon"></i>
                         <h4>Phone Support</h4>
-                        <p>Call us at +254 123 456 789 for immediate help.</p>
+                        <p>Call us at +254 701 616 456 for immediate help.</p>
                     </div>
                 </div>
             </div>
+
+            @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
 
             <!-- Right Column: Contact Form -->
             <div class="col-md-6 contact-form">
@@ -32,20 +49,25 @@
             
                 <form action="{{ route('contact.submit') }}" method="post">
                     @csrf <!-- This directive generates a CSRF token for security -->
+                    
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" class="form-control" required>
                     </div>
+                
                     <div class="form-group">
                         <label for="email">Email:</label>
                         <input type="email" id="email" name="email" class="form-control" required>
                     </div>
+                
                     <div class="form-group">
                         <label for="message">Message:</label>
                         <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
                     </div>
+                
                     <button type="submit" class="btn-submit">Send Message</button>
                 </form>
+                
             </div>
             
         </div>
