@@ -14,6 +14,10 @@ Route::get('/about', function () {
     return view('frontend.about');
 });
 
+Route::get('/packages', function () {
+    return view('frontend.packages');
+});
+
 Route::get('/video', function () {
     return view('frontend.video');
 });
