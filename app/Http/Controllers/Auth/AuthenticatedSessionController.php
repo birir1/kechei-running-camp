@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
@@ -24,11 +23,22 @@ class AuthenticatedSessionController extends Controller
      */
     public function store(LoginRequest $request): RedirectResponse
     {
+        // Authenticate the user
         $request->authenticate();
 
+        // Regenerate session
         $request->session()->regenerate();
 
-        return redirect()->intended(route('dashboard', absolute: false));
+        // Redirect based on user role
+        $user = Auth::user(); // Get the authenticated user
+
+        if ($user->role === 'admin') {
+            return redirect()->intended('/admin/dashboard'); // Admin dashboard
+        } elseif ($user->role === 'manager') {
+            return redirect()->intended('/manager/dashboard'); // Manager dashboard
+        } else {
+            return redirect()->intended('/user/dashboard'); // User dashboard
+        }
     }
 
     /**
