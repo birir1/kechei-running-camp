@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="container">
-        <div class="container" style="width: 250px; height: 100vh; background-color: #143009; padding: 20px; color: #eeb601; font-family: 'Times New Roman', Times, serif; position: fixed;">
-            <h2 style="text-align: center; color: #eeb601;">Admin Dashboard</h2>
+        <div class="sidebar" style="width: 250px; height: auto; background-color: #143009; padding: 20px; color: #eeb601; font-family: 'Times New Roman', Times, serif; position: fixed; top: 0; left: 0; height: 100%; overflow-y: auto;">
+            {{-- <h2 style="text-align: center; color: #eeb601;">Admin Dashboard</h2> --}}
             <ul style="list-style-type: none; padding: 0;">
                 <li style="padding: 10px 0;">
                     <a href="#" style="text-decoration: none; color: #eeb601; display: block; padding: 10px; border-radius: 5px; transition: background-color 0.3s;">

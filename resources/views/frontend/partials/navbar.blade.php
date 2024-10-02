@@ -9,9 +9,9 @@
     </div>
     <div class="navbar-socials">
         <a href="" style="font-size: 14px; color: white;">info@kecheicentre.com</a>
-        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com/KecheiCenter/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/KecheiCenter/" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/kecheicentre" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@kechei_centre" target="_blank"><i class="fab fa-tiktok"></i></a>
     </div>
 </nav>
