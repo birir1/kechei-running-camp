@@ -2,7 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Routing\Controller; // Adjusting the parent class if needed
+use Illuminate\Routing\Controller;
+
 
 abstract class BaseFrontendController extends Controller
 {

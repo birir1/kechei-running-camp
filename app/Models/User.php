@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
@@ -20,6 +20,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role', // Assuming you have a 'role' attribute
     ];
 
     /**
@@ -32,32 +33,46 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+   /**
+ * The attributes that should be cast.
+ *
+ * @var array<string, string>
+ */
+protected $casts = [
+    'email_verified_at' => 'datetime',
+    'password' => 'hashed',
+];
+
+
     /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
+     * Check if the user is an admin.
      */
-    protected function casts(): array
+    public function isAdmin()
     {
-        return [
-            'email_verified_at' => 'datetime',
-            'password' => 'hashed',
-        ];
+        return $this->role === 'admin';
     }
 
-    public function isAdmin()
-{
-    return $this->role === 'admin';
-}
+    /**
+     * Check if the user is a manager.
+     */
+    public function isManager()
+    {
+        return $this->role === 'manager';
+    }
 
-public function isManager()
-{
-    return $this->role === 'manager';
-}
+    /**
+     * Check if the user is a standard user.
+     */
+    public function isUser()
+    {
+        return $this->role === 'user';
+    }
 
-public function isUser()
-{
-    return $this->role === 'user';
-}
-
+    /**
+     * Get the events that the user is attending.
+     */
+    public function events(): BelongsToMany
+    {
+        return $this->belongsToMany(Event::class, 'attendances'); // Use the correct pivot table name
+    }
 }
